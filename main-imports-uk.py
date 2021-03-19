@@ -214,7 +214,7 @@ div0 = Div(text = """Each category is a 1 or 2 digit Product Code. Total is the 
 div1 = Div(text = """Top 20 Countries by import volume and EU (28), EX EU (28), and Whole World.\n
     """, width=350, background = background, style={"justify-content": "space-between", "display": "flex"} )
 
-div2 = Div(text = """Transformations: Dollars, Year over Year Percent Change.\n
+div2 = Div(text = """Transformations: Pounds, Year over Year Percent Change.\n
     """, width=350, background = background, style={"justify-content": "space-between", "display": "flex"} )
 
 controls = column(country_select,div1, product_select, div0, level_select,div2)
